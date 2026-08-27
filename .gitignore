@@ -1,0 +1,30 @@
+# Environment variables / API keys
+.env
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter notebooks
+jypter_note_book/
+
+# Local generated vector database
+kb_vector_database/
+
+# ChromaDB / local vector database
+chroma_db/
+chroma/
+vectorstore/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,101 @@
+{
+    "project": "Zycus AI Support System",
+    "evaluation_summary": {
+        "total_tests": 10,
+        "total_passed": 10,
+        "total_failed": 0,
+        "overall_pass_rate": 1.0
+    },
+    "task_1": {
+        "task": "Task 1 - Intelligent Ticket Triage",
+        "passed": 5,
+        "total": 5,
+        "average_quality_score": 1.0,
+        "tests": [
+            {
+                "test_id": "T1-01",
+                "test_name": "Performance ticket input validation",
+                "passed": true,
+                "quality_score": 1.0,
+                "details": "Required ticket fields present."
+            },
+            {
+                "test_id": "T1-02",
+                "test_name": "Critical ticket validation",
+                "passed": true,
+                "quality_score": 1.0,
+                "details": "Critical ticket contains valid triage fields."
+            },
+            {
+                "test_id": "T1-03",
+                "test_name": "General support ticket validation",
+                "passed": true,
+                "quality_score": 1.0,
+                "details": "General support ticket structure is valid."
+            },
+            {
+                "test_id": "T1-04",
+                "test_name": "Additional ticket validation",
+                "passed": true,
+                "quality_score": 1.0,
+                "details": "Ticket contains required classification information."
+            },
+            {
+                "test_id": "T1-05",
+                "test_name": "Adversarial incomplete ticket",
+                "adversarial": true,
+                "passed": true,
+                "quality_score": 1.0,
+                "details": "Invalid empty ticket correctly rejected."
+            }
+        ]
+    },
+    "task_2": {
+        "task": "Task 2 - TAM Account Health",
+        "passed": 5,
+        "total": 5,
+        "average_quality_score": 1.0,
+        "tests": [
+            {
+                "test_id": "T2-01",
+                "test_name": "Account ACC-1785 data validation",
+                "account_id": "ACC-1785",
+                "passed": true,
+                "quality_score": 1.0,
+                "details": "90-day tickets=1, reference=2026-05-22"
+            },
+            {
+                "test_id": "T2-02",
+                "test_name": "Account ACC-3336 data validation",
+                "account_id": "ACC-3336",
+                "passed": true,
+                "quality_score": 1.0,
+                "details": "90-day tickets=1, reference=2026-05-22"
+            },
+            {
+                "test_id": "T2-03",
+                "test_name": "Account ACC-5748 data validation",
+                "account_id": "ACC-5748",
+                "passed": true,
+                "quality_score": 1.0,
+                "details": "90-day tickets=1, reference=2026-05-22"
+            },
+            {
+                "test_id": "T2-04",
+                "test_name": "Account ACC-7397 data validation",
+                "account_id": "ACC-7397",
+                "passed": true,
+                "quality_score": 1.0,
+                "details": "90-day tickets=1, reference=2026-05-22"
+            },
+            {
+                "test_id": "T2-05",
+                "test_name": "Adversarial invalid account",
+                "adversarial": true,
+                "passed": true,
+                "quality_score": 1.0,
+                "details": "Invalid account correctly rejected."
+            }
+        ]
+    }
+}
